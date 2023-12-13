@@ -11,7 +11,7 @@ const MovieCard = (props) => {
     <div className='cont'>
       {/* importation du carte du bootstrap et l' affichera tous les attributs de chaque film définis dans le fichier Movielist dans un card .  */}
 
-      <div className='TOS'>
+      <div >
 
         <Card id='ca'>
           <Card.Img variant="top" src={props.pr.posterURL} id='aa' />
